@@ -10,12 +10,6 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [Thought based website](https://thoughtflow.onrender.com)
-
-- 🌱 I’m currently learning **Django (Web Framework), Machine Learning (ML), Artificial Intelligence (AI), Backend Frameworks**
-
-- 💬 Ask me about **HTML, CSS, JavaScript, Django ,MySql, PostgreSql, MongoDB**
-
 - 📫 How to reach me **prajwalbr0304@gmail.com**
 
 - ⚡ Fun fact **I debug in my dreams and wake up with solutions!**
