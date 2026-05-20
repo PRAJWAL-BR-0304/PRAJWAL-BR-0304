@@ -1,2 +1,12 @@
-node_modules/
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+
+# Env (never commit secrets)
 .env
+.env.local
+
