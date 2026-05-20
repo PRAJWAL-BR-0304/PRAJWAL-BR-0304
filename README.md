@@ -150,14 +150,34 @@ contact:     "prajwalbr0304@gmail.com"
 ## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="28"></picture> Contribution snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <a href="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/actions/workflows/snake.yml">
+    <img alt="contribution snake — enable Actions to activate" src="https://capsule-render.vercel.app/api?type=transparent&color=00C9FF&height=120&section=header&text=Snake%20activates%20once%20Actions%20is%20enabled&fontSize=20&fontColor=00C9FF&fontAlignY=55" />
+  </a>
 </p>
 
-> The snake regenerates automatically every 12 hours via [`.github/workflows/snake.yml`](./.github/workflows/snake.yml).
+<details>
+  <summary><b>🐍 One-time setup to activate the contribution snake</b></summary>
+
+The workflow [`.github/workflows/snake.yml`](./.github/workflows/snake.yml) generates an SVG of my contribution graph as a snake game and pushes it to an `output` branch every 12 hours.
+
+To activate it:
+
+1. Open this repo on GitHub → **Settings** → **Actions** → **General**
+2. Under **Actions permissions**, select **Allow all actions and reusable workflows**
+3. Save, then go to the **Actions** tab and **enable workflows**
+4. Open the **Generate contribution snake** workflow and click **Run workflow**
+
+After it succeeds, replace the placeholder above with:
+
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" alt="contribution snake" />
+</picture>
+```
+
+</details>
 
 ---
 
