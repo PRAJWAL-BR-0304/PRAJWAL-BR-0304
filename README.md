@@ -1,8 +1,8 @@
-<!--
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║   PRAJWAL B R · GitHub profile README                             ║
-  ║   Animated · colorful · auto-updating widgets                     ║
-  ╚══════════════════════════════════════════════════════════════════╝
+﻿<!--
+  â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+  â•‘   PRAJWAL B R Â· GitHub profile README                             â•‘
+  â•‘   Animated Â· colorful Â· auto-updating widgets                     â•‘
+  â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 -->
 
 <!-- ============== Animated header banner ============== -->
@@ -59,23 +59,23 @@
 
 ```yaml
 name:        "Prajwal B R"
-location:    "Bengaluru, India 🇮🇳"
+location:    "Bengaluru, India ðŸ‡®ðŸ‡³"
 role:        "Full-Stack Developer"
 focus:       ["Web apps", "AI integrations", "Cloud + DevOps", "Web3 dApps"]
 currently:   "Shipping side-projects across Django, React, Node, MATLAB & Solidity-adjacent stacks"
-loves:       ["clean architecture", "great DX", "shipping fast", "good coffee ☕"]
-fun_fact:    "I debug in my dreams and wake up with solutions 🧠✨"
+loves:       ["clean architecture", "great DX", "shipping fast", "good coffee â˜•"]
+fun_fact:    "I debug in my dreams and wake up with solutions ðŸ§ âœ¨"
 contact:     "prajwalbr0304@gmail.com"
 ```
 
 <details>
-  <summary><b>🎯 What I'm up to</b></summary>
+  <summary><b>ðŸŽ¯ What I'm up to</b></summary>
 
-- 🔭 Building production-grade web apps with **React, Vite, Django** and **Supabase**
-- 🌱 Going deeper into **AI/LLM integrations** (Groq, OpenAI), **MetaMask / ethers**, and **AWS**
-- 🤝 Open to **collabs** on full-stack, AI, and developer-tooling projects
-- 💬 Ask me about **system design**, **DX-friendly UI**, or **getting an MVP shipped fast**
-- 🧠 Long-term goal: ship products that real people love using
+- ðŸ”­ Building production-grade web apps with **React, Vite, Django** and **Supabase**
+- ðŸŒ± Going deeper into **AI/LLM integrations** (Groq, OpenAI), **MetaMask / ethers**, and **AWS**
+- ðŸ¤ Open to **collabs** on full-stack, AI, and developer-tooling projects
+- ðŸ’¬ Ask me about **system design**, **DX-friendly UI**, or **getting an MVP shipped fast**
+- ðŸ§  Long-term goal: ship products that real people love using
 </details>
 
 ---
@@ -104,7 +104,7 @@ contact:     "prajwalbr0304@gmail.com"
 </p>
 
 <details>
-  <summary><b>🧩 Stack details</b></summary>
+  <summary><b>ðŸ§© Stack details</b></summary>
 
 | Area | Tools |
 |------|-------|
@@ -164,12 +164,12 @@ contact:     "prajwalbr0304@gmail.com"
 </p>
 
 <details>
-  <summary><b>🐍 Activate the live snake (one-time, optional)</b></summary>
+  <summary><b>ðŸ Activate the live snake (one-time, optional)</b></summary>
 
 The decorative snake above is a static animated SVG committed to this repo. To switch it to a live, contribution-driven snake that updates every 12 hours:
 
-1. Open this repo on GitHub → **Settings → Actions → General**
-2. Choose **Allow all actions and reusable workflows** → **Save**
+1. Open this repo on GitHub â†’ **Settings â†’ Actions â†’ General**
+2. Choose **Allow all actions and reusable workflows** â†’ **Save**
 3. Open the **Actions** tab and **enable workflows**
 4. Run **Generate contribution snake** once manually
 5. Replace `./assets/snake.svg` reference in this README with:
@@ -193,7 +193,7 @@ The workflow lives at [`.github/workflows/snake.yml`](./.github/workflows/snake.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📚 <a href="https://github.com/PRAJWAL-BR-0304/KNOWLEDGE-BASE">KnowBase</a></h3>
+      <h3>ðŸ“š <a href="https://github.com/PRAJWAL-BR-0304/KNOWLEDGE-BASE">KnowBase</a></h3>
       <p>
         <img src="https://img.shields.io/github/languages/top/PRAJWAL-BR-0304/KNOWLEDGE-BASE?style=flat-square&color=00C9FF" />
         <img src="https://img.shields.io/github/stars/PRAJWAL-BR-0304/KNOWLEDGE-BASE?style=flat-square&color=8A2BE2" />
@@ -202,7 +202,7 @@ The workflow lives at [`.github/workflows/snake.yml`](./.github/workflows/snake.
       <p>AI-powered knowledge pages with <b>Supabase</b> auth + DB and <b>Groq</b> Markdown generation, built with <b>React + Vite + Tailwind</b>.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏠 <a href="https://github.com/PRAJWAL-BR-0304/DeFi-Homes">DeFi Homes · PropertyBid</a></h3>
+      <h3>ðŸ  <a href="https://github.com/PRAJWAL-BR-0304/DeFi-Homes">DeFi Homes Â· PropertyBid</a></h3>
       <p>
         <img src="https://img.shields.io/github/languages/top/PRAJWAL-BR-0304/DeFi-Homes?style=flat-square&color=00C9FF" />
         <img src="https://img.shields.io/github/stars/PRAJWAL-BR-0304/DeFi-Homes?style=flat-square&color=8A2BE2" />
@@ -213,16 +213,16 @@ The workflow lives at [`.github/workflows/snake.yml`](./.github/workflows/snake.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎓 <a href="https://github.com/PRAJWAL-BR-0304/Student-Management-System">Student Management System</a></h3>
+      <h3>ðŸŽ“ <a href="https://github.com/PRAJWAL-BR-0304/Student-Management-System">Student Management System</a></h3>
       <p>
         <img src="https://img.shields.io/github/languages/top/PRAJWAL-BR-0304/Student-Management-System?style=flat-square&color=00C9FF" />
         <img src="https://img.shields.io/github/stars/PRAJWAL-BR-0304/Student-Management-System?style=flat-square&color=8A2BE2" />
         <img src="https://img.shields.io/github/last-commit/PRAJWAL-BR-0304/Student-Management-System?style=flat-square&color=1E90FF" />
       </p>
-      <p><b>Django 5</b> role-based platform for Admin, HOD, Staff, and Student—attendance, leave, notifications, profiles.</p>
+      <p><b>Django 5</b> role-based platform for Admin, HOD, Staff, and Studentâ€”attendance, leave, notifications, profiles.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>📝 <a href="https://github.com/PRAJWAL-BR-0304/AI-GRAMMAR">AI Grammar</a></h3>
+      <h3>ðŸ“ <a href="https://github.com/PRAJWAL-BR-0304/AI-GRAMMAR">AI Grammar</a></h3>
       <p>
         <img src="https://img.shields.io/github/languages/top/PRAJWAL-BR-0304/AI-GRAMMAR?style=flat-square&color=00C9FF" />
         <img src="https://img.shields.io/github/stars/PRAJWAL-BR-0304/AI-GRAMMAR?style=flat-square&color=8A2BE2" />
@@ -233,7 +233,7 @@ The workflow lives at [`.github/workflows/snake.yml`](./.github/workflows/snake.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌱 <a href="https://github.com/PRAJWAL-BR-0304/eden-thought">Eden Thought</a></h3>
+      <h3>ðŸŒ± <a href="https://github.com/PRAJWAL-BR-0304/eden-thought">Eden Thought</a></h3>
       <p>
         <img src="https://img.shields.io/github/languages/top/PRAJWAL-BR-0304/eden-thought?style=flat-square&color=00C9FF" />
         <img src="https://img.shields.io/github/stars/PRAJWAL-BR-0304/eden-thought?style=flat-square&color=8A2BE2" />
@@ -242,13 +242,13 @@ The workflow lives at [`.github/workflows/snake.yml`](./.github/workflows/snake.
       <p><b>Django</b> journaling app with auth, CRUD, profile images on <b>Amazon S3</b>, PostgreSQL, deployed via Render.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/PRAJWAL-BR-0304/Brain-Tumor-Detetction-Matlab">Brain Tumor Detection</a></h3>
+      <h3>ðŸ§  <a href="https://github.com/PRAJWAL-BR-0304/Brain-Tumor-Detetction-Matlab">Brain Tumor Detection</a></h3>
       <p>
         <img src="https://img.shields.io/github/languages/top/PRAJWAL-BR-0304/Brain-Tumor-Detetction-Matlab?style=flat-square&color=00C9FF" />
         <img src="https://img.shields.io/github/stars/PRAJWAL-BR-0304/Brain-Tumor-Detetction-Matlab?style=flat-square&color=8A2BE2" />
         <img src="https://img.shields.io/github/last-commit/PRAJWAL-BR-0304/Brain-Tumor-Detetction-Matlab?style=flat-square&color=1E90FF" />
       </p>
-      <p><b>MATLAB</b> GUI pipeline: image loading → noise removal → edge detection → tumor highlighting.</p>
+      <p><b>MATLAB</b> GUI pipeline: image loading â†’ noise removal â†’ edge detection â†’ tumor highlighting.</p>
     </td>
   </tr>
 </table>
@@ -269,7 +269,7 @@ The workflow lives at [`.github/workflows/snake.yml`](./.github/workflows/snake.
 
 ---
 
-## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Handshake.png" width="28"></picture> Let’s connect
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Handshake.png" width="28"></picture> Letâ€™s connect
 
 <p align="center">
   <a href="mailto:prajwalbr0304@gmail.com">
@@ -288,4 +288,77 @@ The workflow lives at [`.github/workflows/snake.yml`](./.github/workflows/snake.
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:1E90FF,100:8A2BE2&height=140&section=footer&text=Thanks%20for%20stopping%20by!&fontSize=22&fontColor=ffffff&fontAlignY=70&animation=twinkling" alt="footer" />
 </p>
 
-<p align="center"><sub>“Built with ☕, curiosity, and a lot of <code>git push</code>.”</sub></p>
+<p align="center"><sub>â€œBuilt with â˜•, curiosity, and a lot of <code>git push</code>.â€</sub></p>
+
+---
+
+## âš¡ Auto-sync this profile with `.env`
+
+This README can auto-refresh live GitHub data (followers, stars, top repos, recent activity) using a local script.
+
+1. Create `.env` from `.env.example`
+2. Add your username and (recommended) GitHub token in `.env`
+3. Run (Windows PowerShell):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\update-readme.ps1
+```
+
+Optional (if Node.js is installed):
+
+```bash
+npm install
+npm run update:readme
+```
+
+Use this before pushing changes to keep your profile stats fresh.
+
+If API lookup fails with 404, add `GITHUB_TOKEN` in `.env` and run again.
+
+<!-- GITHUB_DYNAMIC_SECTION:START -->
+## Live GitHub Snapshot
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Public%20Repos-15-0284c7?style=for-the-badge&logo=github" alt="Public repos" />
+  <img src="https://img.shields.io/badge/Followers-0-16a34a?style=for-the-badge&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/badge/Following-0-d97706?style=for-the-badge&logo=github" alt="Following" />
+  <img src="https://img.shields.io/badge/Total%20Stars-0-0f172a?style=for-the-badge&logo=github" alt="Total stars" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="Profile summary" />
+</p>
+
+> Last refreshed: **2026-05-20 16:53 UTC**
+
+### Starred highlights
+
+| Repository | Primary language | Stars | Forks | Last push |
+|---|---|---:|---:|---:|
+| [MEDITRUSTCHAIN](https://github.com/PRAJWAL-BR-0304/MEDITRUSTCHAIN) | TypeScript | 0 | 0 | 2026-05-07 |
+| [eden-thought](https://github.com/PRAJWAL-BR-0304/eden-thought) | HTML | 0 | 0 | 2026-05-20 |
+| [AI-GRAMMAR](https://github.com/PRAJWAL-BR-0304/AI-GRAMMAR) | EJS | 0 | 0 | 2026-05-20 |
+| [MAJOR-PROJECT](https://github.com/PRAJWAL-BR-0304/MAJOR-PROJECT) | TypeScript | 0 | 0 | 2026-04-23 |
+| [MyPortfolio](https://github.com/PRAJWAL-BR-0304/MyPortfolio) | TypeScript | 0 | 0 | 2025-07-30 |
+| [HabitTracker](https://github.com/PRAJWAL-BR-0304/HabitTracker) | TypeScript | 0 | 0 | 2025-10-12 |
+
+### Recently active repositories
+
+- [PRAJWAL-BR-0304](https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304) - updated 2026-05-20
+- [Student-Management-System](https://github.com/PRAJWAL-BR-0304/Student-Management-System) - updated 2026-05-20
+- [DeFi-Homes](https://github.com/PRAJWAL-BR-0304/DeFi-Homes) - updated 2026-05-20
+- [KNOWLEDGE-BASE](https://github.com/PRAJWAL-BR-0304/KNOWLEDGE-BASE) - updated 2026-05-20
+- [Drawing-Website](https://github.com/PRAJWAL-BR-0304/Drawing-Website) - updated 2026-05-20
+
+### Profile quick links
+
+<p align="center">
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=repositories"><img src="https://img.shields.io/badge/Explore%20Repos-111827?style=for-the-badge&logo=github" alt="Explore repos" /></a>
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=stars"><img src="https://img.shields.io/badge/Starred%20Projects-0f766e?style=for-the-badge&logo=github" alt="Starred projects" /></a>
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=followers"><img src="https://img.shields.io/badge/Connect%20on%20GitHub-1d4ed8?style=for-the-badge&logo=github" alt="Connect on GitHub" /></a>
+</p>
+<!-- GITHUB_DYNAMIC_SECTION:END -->
+
+
+
+
