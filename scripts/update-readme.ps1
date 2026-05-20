@@ -1,5 +1,24 @@
 $ErrorActionPreference = "Stop"
 
+function Replace-ReadmeSection {
+  param(
+    [string]$Text,
+    [string]$StartMarker,
+    [string]$EndMarker,
+    [string]$Inner
+  )
+
+  $startIndex = $Text.IndexOf($StartMarker)
+  $endIndex = $Text.IndexOf($EndMarker)
+  if ($startIndex -ge 0 -and $endIndex -ge 0 -and $endIndex -gt $startIndex) {
+    $endClose = $endIndex + $EndMarker.Length
+    $replacement = "$StartMarker`n$Inner`n$EndMarker"
+    return $Text.Substring(0, $startIndex) + $replacement + $Text.Substring($endClose)
+  }
+
+  return $Text
+}
+
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $readmePath = Join-Path $repoRoot "README.md"
 $envPath = Join-Path $repoRoot ".env"
@@ -103,7 +122,7 @@ $section = @"
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=$username&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="Profile summary" />
+  <img src="https://readme-stats-github.vercel.app/api?username=$username&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="Profile summary" />
 </p>
 
 > Last refreshed: **$stamp UTC**
@@ -127,23 +146,53 @@ $latestRows
 </p>
 "@
 
-$start = "<!-- GITHUB_DYNAMIC_SECTION:START -->"
-$end = "<!-- GITHUB_DYNAMIC_SECTION:END -->"
+$metricsInner = @"
+<p align="center">
+  <a href="https://github.com/${username}"><img src="https://komarev.com/ghpvc/?username=${username}&label=Profile%20views&color=8A2BE2&style=for-the-badge" alt="Profile views" /></a>
+  <a href="https://github.com/${username}?tab=followers"><img src="https://img.shields.io/badge/Followers-$($profile.followers)-1E90FF?style=for-the-badge&logo=github" alt="Followers" /></a>
+  <a href="https://github.com/${username}?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-$($profile.public_repos)-00C9FF?style=for-the-badge&logo=github" alt="Public repos" /></a>
+  <img src="https://img.shields.io/badge/Total%20Stars-$totalStars-8A2BE2?style=for-the-badge&logo=github" alt="Total stars" />
+  <img src="https://img.shields.io/badge/Open%20to-Collab-success?style=for-the-badge&logo=handshake&logoColor=white&color=22C55E" alt="Open to collab" />
+</p>
+"@
+
+$joinedYear = ([datetime]$profile.created_at).Year
+if ($topRepos.Count -gt 0 -and $latestRepos.Count -gt 0) {
+  $topName = $topRepos[0].name -replace '-', '--'
+  $latestName = $latestRepos[0].name -replace '-', '--'
+  $milestonesInner = @"
+<p align="center">
+  <img src="https://img.shields.io/badge/Member%20since-$joinedYear-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Member since" />
+  <a href="$($topRepos[0].html_url)"><img src="https://img.shields.io/badge/Top%20repo-$topName-8A2BE2?style=for-the-badge&logo=github" alt="Top repository" /></a>
+  <a href="$($latestRepos[0].html_url)"><img src="https://img.shields.io/badge/Latest%20ship-$latestName-00C9FF?style=for-the-badge&logo=github" alt="Latest push" /></a>
+</p>
+"@
+} else {
+  $milestonesInner = @"
+<p align="center">
+  <img src="https://img.shields.io/badge/Member%20since-$joinedYear-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Member since" />
+</p>
+"@
+}
+
+$dynStart = "<!-- GITHUB_DYNAMIC_SECTION:START -->"
+$dynEnd = "<!-- GITHUB_DYNAMIC_SECTION:END -->"
 
 $readme = Get-Content $readmePath -Raw
-$block = "$start`n$section`n$end"
+$dynBlock = "$dynStart`n$section`n$dynEnd"
 
-$startIndex = $readme.IndexOf($start)
-$endIndex = $readme.IndexOf($end)
+$startIndex = $readme.IndexOf($dynStart)
+$endIndex = $readme.IndexOf($dynEnd)
 
 if ($startIndex -ge 0 -and $endIndex -ge 0 -and $endIndex -gt $startIndex) {
-  $endIndex = $endIndex + $end.Length
-  $prefix = $readme.Substring(0, $startIndex)
-  $suffix = $readme.Substring($endIndex)
-  $updated = "$prefix$block$suffix"
+  $endClose = $endIndex + $dynEnd.Length
+  $updated = $readme.Substring(0, $startIndex) + $dynBlock + $readme.Substring($endClose)
 } else {
-  $updated = "$readme`n`n$block`n"
+  $updated = "$readme`n`n$dynBlock`n"
 }
+
+$updated = Replace-ReadmeSection -Text $updated -StartMarker "<!-- PROFILE_METRICS_BADGES:START -->" -EndMarker "<!-- PROFILE_METRICS_BADGES:END -->" -Inner $metricsInner
+$updated = Replace-ReadmeSection -Text $updated -StartMarker "<!-- PROFILE_MILESTONES:START -->" -EndMarker "<!-- PROFILE_MILESTONES:END -->" -Inner $milestonesInner
 
 Set-Content -Path $readmePath -Value $updated -Encoding UTF8
 Write-Output "README updated successfully from .env using PowerShell."
