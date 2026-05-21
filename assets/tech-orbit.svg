@@ -1,0 +1,123 @@
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#060810"/>
+    </radialGradient>
+    <radialGradient id="coreG2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c4a6ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#c4a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      @keyframes spin-cw  { from{transform:rotate(0deg)}   to{transform:rotate(360deg)} }
+      @keyframes spin-ccw { from{transform:rotate(0deg)}   to{transform:rotate(-360deg)} }
+      @keyframes spin-cw2 { from{transform:rotate(0deg)}   to{transform:rotate(360deg)} }
+      @keyframes node-pulse { 0%,100%{opacity:0.85;r:6} 50%{opacity:1;r:7.5} }
+      @keyframes label-fade { 0%,100%{opacity:0.6} 50%{opacity:1} }
+      @keyframes core-pulse { 0%,100%{r:40;opacity:0.15} 50%{r:50;opacity:0.05} }
+      .ring-inner { transform-origin:450px 150px; animation:spin-cw 22s linear infinite }
+      .ring-mid   { transform-origin:450px 150px; animation:spin-ccw 32s linear infinite }
+      .ring-outer { transform-origin:450px 150px; animation:spin-cw2 44s linear infinite }
+      .np { animation:node-pulse 2.5s ease-in-out infinite }
+      .lf { animation:label-fade 2.5s ease-in-out infinite }
+      .cp { animation:core-pulse 3s ease-in-out infinite }
+    </style>
+  </defs>
+
+  <rect width="900" height="300" fill="url(#bg2)" rx="12"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="150" x2="900" y2="150" stroke="#c4a6ff" stroke-width="0.3" opacity="0.06"/>
+  <line x1="450" y1="0" x2="450" y2="300" stroke="#c4a6ff" stroke-width="0.3" opacity="0.06"/>
+
+  <!-- Core glow -->
+  <circle class="cp" cx="450" cy="150" fill="url(#coreG2)"/>
+  <circle cx="450" cy="150" r="42" fill="#0d1117" stroke="#c4a6ff" stroke-width="1.5" opacity="0.95"/>
+  <circle cx="450" cy="150" r="34" fill="#0d1117" stroke="#c4a6ff" stroke-width="0.5" opacity="0.4"/>
+  <text x="450" y="145" font-family="JetBrains Mono,monospace" font-size="10" font-weight="700" fill="#c4a6ff" text-anchor="middle" letter-spacing="1">PRAJWAL</text>
+  <text x="450" y="160" font-family="JetBrains Mono,monospace" font-size="7" fill="#7ee787" text-anchor="middle" opacity="0.75">B R</text>
+
+  <!-- Inner ring (r=100): TypeScript, React, Node.js -->
+  <ellipse cx="450" cy="150" rx="100" ry="52" fill="none" stroke="#c4a6ff" stroke-width="0.8" stroke-dasharray="6 5" opacity="0.3" class="ring-inner"/>
+
+  <g class="ring-inner">
+    <!-- TS at 0deg -->
+    <g transform="translate(550,150)">
+      <circle r="16" fill="#0d1117" stroke="#3178C6" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="9" font-weight="700" fill="#3178C6" text-anchor="middle" dy="3.5">TS</text>
+    </g>
+    <!-- React at 120deg -->
+    <g transform="translate(400,195)">
+      <circle r="16" fill="#0d1117" stroke="#61DAFB" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="7" font-weight="700" fill="#61DAFB" text-anchor="middle" dy="3">React</text>
+    </g>
+    <!-- Node at 240deg -->
+    <g transform="translate(400,105)">
+      <circle r="16" fill="#0d1117" stroke="#339933" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="7" font-weight="700" fill="#339933" text-anchor="middle" dy="3">Node</text>
+    </g>
+  </g>
+
+  <!-- Mid ring (r=165): AWS, Docker, Python, Django -->
+  <ellipse cx="450" cy="150" rx="165" ry="85" fill="none" stroke="#7ee787" stroke-width="0.6" stroke-dasharray="10 7" opacity="0.22" class="ring-mid"/>
+
+  <g class="ring-mid">
+    <!-- AWS at 0deg -->
+    <g transform="translate(615,150)">
+      <circle r="18" fill="#0d1117" stroke="#FF9900" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="7.5" font-weight="700" fill="#FF9900" text-anchor="middle" dy="3">AWS</text>
+    </g>
+    <!-- Docker at 90deg -->
+    <g transform="translate(450,235)">
+      <circle r="18" fill="#0d1117" stroke="#2496ED" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="7" font-weight="700" fill="#2496ED" text-anchor="middle" dy="3">Docker</text>
+    </g>
+    <!-- Python at 180deg -->
+    <g transform="translate(285,150)">
+      <circle r="18" fill="#0d1117" stroke="#3776AB" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="7.5" font-weight="700" fill="#3776AB" text-anchor="middle" dy="3">Python</text>
+    </g>
+    <!-- Django at 270deg -->
+    <g transform="translate(450,65)">
+      <circle r="18" fill="#0d1117" stroke="#092E20" stroke-width="1.5" opacity="0.9"/>
+      <circle r="18" fill="none" stroke="#44B78B" stroke-width="1" opacity="0.6"/>
+      <text font-family="JetBrains Mono,monospace" font-size="7" font-weight="700" fill="#44B78B" text-anchor="middle" dy="3">Django</text>
+    </g>
+  </g>
+
+  <!-- Outer ring (r=225): MongoDB, PostgreSQL, Solidity, Next.js, Git -->
+  <ellipse cx="450" cy="150" rx="215" ry="110" fill="none" stroke="#c4a6ff" stroke-width="0.5" stroke-dasharray="4 9" opacity="0.15" class="ring-outer"/>
+
+  <g class="ring-outer">
+    <!-- MongoDB at 0deg -->
+    <g transform="translate(665,150)">
+      <circle r="18" fill="#0d1117" stroke="#47A248" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="6.5" font-weight="700" fill="#47A248" text-anchor="middle" dy="3">Mongo</text>
+    </g>
+    <!-- Next.js at 72deg -->
+    <g transform="translate(582,252)">
+      <circle r="18" fill="#0d1117" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="6.5" font-weight="700" fill="#ffffff" text-anchor="middle" dy="3">Next.js</text>
+    </g>
+    <!-- Solidity at 144deg -->
+    <g transform="translate(318,252)">
+      <circle r="18" fill="#0d1117" stroke="#c4a6ff" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="6.5" font-weight="700" fill="#c4a6ff" text-anchor="middle" dy="3">Solidity</text>
+    </g>
+    <!-- PostgreSQL at 216deg -->
+    <g transform="translate(235,150)">
+      <circle r="18" fill="#0d1117" stroke="#4169E1" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="6" font-weight="700" fill="#4169E1" text-anchor="middle" dy="3">Postgres</text>
+    </g>
+    <!-- Git at 288deg -->
+    <g transform="translate(370,42)">
+      <circle r="18" fill="#0d1117" stroke="#F05032" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="7.5" font-weight="700" fill="#F05032" text-anchor="middle" dy="3">Git</text>
+    </g>
+    <!-- Supabase at 330deg -->
+    <g transform="translate(578,48)">
+      <circle r="18" fill="#0d1117" stroke="#3ECF8E" stroke-width="1.5" opacity="0.9"/>
+      <text font-family="JetBrains Mono,monospace" font-size="6.2" font-weight="700" fill="#3ECF8E" text-anchor="middle" dy="3">Supabase</text>
+    </g>
+  </g>
+</svg>

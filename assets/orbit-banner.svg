@@ -1,32 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" role="img" aria-labelledby="title desc">
-  <title id="title">Prajwal B R  profile orbit</title>
-  <desc id="desc">Abstract orbital lines on a deep field background with the name Prajwal B R.</desc>
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" width="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07060d"/>
-      <stop offset="55%" stop-color="#12101f"/>
-      <stop offset="100%" stop-color="#0b1420"/>
-    </linearGradient>
-    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7ee787" stop-opacity="0"/>
-      <stop offset="35%" stop-color="#7ee787" stop-opacity="0.9"/>
-      <stop offset="65%" stop-color="#c4a6ff" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#7ee787" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="1.2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#070a0f"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c4a6ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#c4a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="2"/>
     </filter>
+    <filter id="blur4">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <style>
+      @keyframes twinkle1 { 0%,100%{opacity:0.15} 50%{opacity:1} }
+      @keyframes twinkle2 { 0%,100%{opacity:0.5} 50%{opacity:0.1} }
+      @keyframes twinkle3 { 0%,100%{opacity:0.8} 40%{opacity:0.2} }
+      @keyframes orbit1 { from{transform:rotate(0deg) translateX(120px) rotate(0deg)} to{transform:rotate(360deg) translateX(120px) rotate(-360deg)} }
+      @keyframes orbit2 { from{transform:rotate(60deg) translateX(175px) rotate(-60deg)} to{transform:rotate(420deg) translateX(175px) rotate(-420deg)} }
+      @keyframes orbit3 { from{transform:rotate(120deg) translateX(230px) rotate(-120deg)} to{transform:rotate(480deg) translateX(230px) rotate(-480deg)} }
+      @keyframes orbit4 { from{transform:rotate(200deg) translateX(120px) rotate(-200deg)} to{transform:rotate(560deg) translateX(120px) rotate(-560deg)} }
+      @keyframes orbit5 { from{transform:rotate(290deg) translateX(175px) rotate(-290deg)} to{transform:rotate(650deg) translateX(175px) rotate(-650deg)} }
+      @keyframes orbit6 { from{transform:rotate(30deg) translateX(230px) rotate(-30deg)} to{transform:rotate(390deg) translateX(230px) rotate(-390deg)} }
+      @keyframes pulse-ring { 0%,100%{r:52;opacity:0.4} 50%{r:60;opacity:0.1} }
+      @keyframes pulse-ring2 { 0%,100%{r:38;opacity:0.3} 50%{r:44;opacity:0.08} }
+      @keyframes name-glow { 0%,100%{fill:#c4a6ff;filter:drop-shadow(0 0 8px #c4a6ff88)} 50%{fill:#e0d0ff;filter:drop-shadow(0 0 18px #c4a6ffcc)} }
+      @keyframes sub-fade { 0%,100%{opacity:0.55} 50%{opacity:0.9} }
+      @keyframes float-code { 0%,100%{transform:translateY(0px);opacity:0.18} 50%{transform:translateY(-8px);opacity:0.35} }
+      @keyframes float-code2 { 0%,100%{transform:translateY(0px);opacity:0.12} 60%{transform:translateY(6px);opacity:0.28} }
+      @keyframes ring-spin { from{stroke-dashoffset:0} to{stroke-dashoffset:-502} }
+      @keyframes ring-spin2 { from{stroke-dashoffset:0} to{stroke-dashoffset:1099} }
+      @keyframes ring-spin3 { from{stroke-dashoffset:0} to{stroke-dashoffset:-1444} }
+      @keyframes dot-chase { 0%{stroke-dashoffset:0} 100%{stroke-dashoffset:-502} }
+      .star1{animation:twinkle1 2.1s ease-in-out infinite}
+      .star2{animation:twinkle2 3.4s ease-in-out infinite}
+      .star3{animation:twinkle3 1.8s ease-in-out infinite}
+      .star4{animation:twinkle1 4.2s ease-in-out infinite}
+      .star5{animation:twinkle2 2.7s ease-in-out infinite}
+      .star6{animation:twinkle3 3.1s ease-in-out infinite}
+      .node1{transform-origin:450px 110px;animation:orbit1 8s linear infinite}
+      .node2{transform-origin:450px 110px;animation:orbit2 12s linear infinite}
+      .node3{transform-origin:450px 110px;animation:orbit3 16s linear infinite}
+      .node4{transform-origin:450px 110px;animation:orbit4 9s linear infinite}
+      .node5{transform-origin:450px 110px;animation:orbit5 13s linear infinite}
+      .node6{transform-origin:450px 110px;animation:orbit6 17s linear infinite}
+      .pr1{transform-origin:450px 110px;animation:pulse-ring 3s ease-in-out infinite}
+      .pr2{transform-origin:450px 110px;animation:pulse-ring2 3s ease-in-out infinite 0.4s}
+      .name-text{animation:name-glow 3.5s ease-in-out infinite}
+      .sub-text{animation:sub-fade 4s ease-in-out infinite}
+      .fc1{animation:float-code 5s ease-in-out infinite}
+      .fc2{animation:float-code2 6s ease-in-out infinite 1s}
+      .fc3{animation:float-code 7s ease-in-out infinite 2s}
+      .fc4{animation:float-code2 4.5s ease-in-out infinite 0.5s}
+      .ring1{animation:ring-spin 20s linear infinite}
+      .ring2{animation:ring-spin2 28s linear infinite}
+      .ring3{animation:ring-spin3 36s linear infinite}
+    </style>
   </defs>
-  <rect width="900" height="160" rx="12" fill="url(#bg)"/>
-  <!-- Orbits -->
-  <ellipse cx="450" cy="88" rx="310" ry="58" fill="none" stroke="url(#ring)" stroke-width="1.25" stroke-dasharray="6 14" opacity="0.85"/>
-  <ellipse cx="450" cy="88" rx="220" ry="40" fill="none" stroke="#2d3b4f" stroke-width="1" stroke-dasharray="2 10" opacity="0.7"/>
-  <ellipse cx="450" cy="88" rx="130" ry="24" fill="none" stroke="#7ee787" stroke-width="0.8" opacity="0.35"/>
-  <!-- Core -->
-  <circle cx="450" cy="88" r="7" fill="#c4a6ff" filter="url(#glow)"/>
-  <circle cx="450" cy="88" r="3" fill="#0b1420"/>
-  <!-- Name -->
-  <text x="450" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#e8e6f3" letter-spacing="0.04em">Prajwal B R</text>
-  <text x="450" y="68" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8da3b8" letter-spacing="0.28em">FULL-STACK · CLOUD · WEB3</text>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Stars -->
+  <circle class="star1" cx="42" cy="18" r="1" fill="#c4a6ff"/>
+  <circle class="star2" cx="120" cy="45" r="0.8" fill="#7ee787"/>
+  <circle class="star3" cx="200" cy="12" r="1.2" fill="#c4a6ff"/>
+  <circle class="star4" cx="310" cy="35" r="0.7" fill="#fff"/>
+  <circle class="star5" cx="80" cy="88" r="1" fill="#7ee787"/>
+  <circle class="star6" cx="170" cy="170" r="0.9" fill="#c4a6ff"/>
+  <circle class="star1" cx="650" cy="20" r="1.1" fill="#7ee787"/>
+  <circle class="star2" cx="730" cy="55" r="0.8" fill="#c4a6ff"/>
+  <circle class="star3" cx="820" cy="15" r="1.3" fill="#fff"/>
+  <circle class="star4" cx="860" cy="80" r="0.7" fill="#7ee787"/>
+  <circle class="star5" cx="700" cy="180" r="1" fill="#c4a6ff"/>
+  <circle class="star6" cx="780" cy="160" r="0.9" fill="#fff"/>
+  <circle class="star1" cx="350" cy="195" r="0.8" fill="#7ee787"/>
+  <circle class="star2" cx="560" cy="205" r="1" fill="#c4a6ff"/>
+  <circle class="star3" cx="480" cy="210" r="0.7" fill="#fff"/>
+  <circle class="star4" cx="25" cy="160" r="1" fill="#7ee787"/>
+  <circle class="star5" cx="880" cy="140" r="0.8" fill="#c4a6ff"/>
+  <circle class="star6" cx="60" cy="130" r="0.6" fill="#fff"/>
+
+  <!-- Floating code fragments left -->
+  <text class="fc1" x="22" y="70" font-family="JetBrains Mono,monospace" font-size="9" fill="#7ee787">const api = new Edge();</text>
+  <text class="fc2" x="15" y="115" font-family="JetBrains Mono,monospace" font-size="9" fill="#c4a6ff">await deploy(slice);</text>
+  <text class="fc3" x="30" y="155" font-family="JetBrains Mono,monospace" font-size="9" fill="#8da3b8">observe(metrics);</text>
+  <!-- Floating code fragments right -->
+  <text class="fc4" x="680" y="60" font-family="JetBrains Mono,monospace" font-size="9" fill="#7ee787">contract Trust {</text>
+  <text class="fc1" x="695" y="115" font-family="JetBrains Mono,monospace" font-size="9" fill="#c4a6ff">emit Shipped(tx);</text>
+  <text class="fc2" x="678" y="165" font-family="JetBrains Mono,monospace" font-size="9" fill="#8da3b8">type Seam = Clean;</text>
+
+  <!-- Orbit rings (spinning dashed) -->
+  <circle class="ring1" cx="450" cy="110" r="80" fill="none" stroke="#c4a6ff" stroke-width="0.5" stroke-dasharray="8 6" opacity="0.25"/>
+  <circle class="ring2" cx="450" cy="110" r="115" fill="none" stroke="#7ee787" stroke-width="0.5" stroke-dasharray="12 8" opacity="0.18"/>
+  <circle class="ring3" cx="450" cy="110" r="150" fill="none" stroke="#c4a6ff" stroke-width="0.4" stroke-dasharray="4 10" opacity="0.12"/>
+
+  <!-- Glow halo -->
+  <circle cx="450" cy="110" r="55" fill="url(#coreGlow)"/>
+
+  <!-- Pulse rings -->
+  <circle class="pr1" cx="450" cy="110" fill="none" stroke="#c4a6ff" stroke-width="1" opacity="0.4"/>
+  <circle class="pr2" cx="450" cy="110" fill="none" stroke="#7ee787" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Core circle -->
+  <circle cx="450" cy="110" r="34" fill="#0d1117" stroke="#c4a6ff" stroke-width="1.2" opacity="0.9"/>
+  <circle cx="450" cy="110" r="28" fill="#0d1117" stroke="#c4a6ff" stroke-width="0.4" opacity="0.5"/>
+
+  <!-- Core initials -->
+  <text x="450" y="116" font-family="JetBrains Mono,monospace" font-size="13" font-weight="700" fill="#c4a6ff" text-anchor="middle">PBR</text>
+
+  <!-- Orbiting nodes -->
+  <g class="node1"><circle cx="450" cy="110" r="5" fill="#7ee787" opacity="0.9"/><text x="450" y="95" font-family="JetBrains Mono,monospace" font-size="7" fill="#7ee787" text-anchor="middle">TS</text></g>
+  <g class="node2"><circle cx="450" cy="110" r="5" fill="#c4a6ff" opacity="0.9"/><text x="450" y="95" font-family="JetBrains Mono,monospace" font-size="7" fill="#c4a6ff" text-anchor="middle">AWS</text></g>
+  <g class="node3"><circle cx="450" cy="110" r="4.5" fill="#7ee787" opacity="0.85"/><text x="450" y="95" font-family="JetBrains Mono,monospace" font-size="6.5" fill="#7ee787" text-anchor="middle">SOL</text></g>
+  <g class="node4"><circle cx="450" cy="110" r="5" fill="#8da3b8" opacity="0.8"/><text x="450" y="95" font-family="JetBrains Mono,monospace" font-size="7" fill="#8da3b8" text-anchor="middle">PY</text></g>
+  <g class="node5"><circle cx="450" cy="110" r="5" fill="#c4a6ff" opacity="0.85"/><text x="450" y="95" font-family="JetBrains Mono,monospace" font-size="7" fill="#c4a6ff" text-anchor="middle">WEB3</text></g>
+  <g class="node6"><circle cx="450" cy="110" r="4.5" fill="#7ee787" opacity="0.8"/><text x="450" y="95" font-family="JetBrains Mono,monospace" font-size="7" fill="#7ee787" text-anchor="middle">PG</text></g>
+
+  <!-- Main name text (right side) -->
+  <text class="name-text" x="450" y="80" font-family="JetBrains Mono,monospace" font-size="0" fill="#c4a6ff" text-anchor="middle" opacity="0"/>
+  <!-- Name large â€” outside orbit zone -->
+  <text x="450" y="48" font-family="JetBrains Mono,monospace" font-size="11" font-weight="600" fill="#8da3b8" text-anchor="middle" letter-spacing="4" opacity="0.6">PRAJWAL B R</text>
+  <text x="450" y="195" font-family="JetBrains Mono,monospace" font-size="9" fill="#8da3b8" text-anchor="middle" letter-spacing="2" opacity="0.45">architect Â· builder Â· observer</text>
 </svg>

@@ -1,87 +1,157 @@
 <p align="center">
-  <img src="./assets/orbit-banner.svg" width="100%" alt="Prajwal B R — orbit banner" />
+  <img src="./assets/orbit-banner.svg" width="100%" alt="Prajwal B R — animated orbit banner"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=C4A6FF&center=true&vCenter=true&multiline=true&width=780&height=90&lines=Design+systems+at+the+seams;Ship+observe+tighten+the+loop;Cloud+%7C+TypeScript+%7C+Solidity" alt="Animated taglines" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=C4A6FF&center=true&vCenter=true&multiline=true&width=820&height=90&lines=Architect+of+clean+seams;Ship+%C2%B7+Observe+%C2%B7+Tighten+the+loop;TypeScript+%C2%B7+Cloud+%C2%B7+Solidity+%C2%B7+Python" alt="Animated taglines"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/PRAJWAL-BR-0304?tab=followers"><img src="https://img.shields.io/github/followers/PRAJWAL-BR-0304?label=Followers&logo=github&style=flat-square&color=7ee787&labelColor=12101f" alt="GitHub followers"/></a>
-  <a href="https://github.com/PRAJWAL-BR-0304?tab=repositories"><img src="https://img.shields.io/badge/Repositories-view-12101f?style=flat-square&logo=github&color=c4a6ff&labelColor=12101f" alt="View repositories"/></a>
-  <img src="https://komarev.com/ghpvc/?username=PRAJWAL-BR-0304&label=Profile+views&color=8da3b8&style=flat-square&labelColor=12101f" alt="Profile views" />
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=followers">
+    <img src="https://img.shields.io/github/followers/PRAJWAL-BR-0304?label=Followers&logo=github&style=flat-square&color=7ee787&labelColor=0d1117" alt="GitHub followers"/>
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=PRAJWAL-BR-0304&label=Profile+views&color=c4a6ff&style=flat-square&labelColor=0d1117" alt="Profile views"/>
+  &nbsp;
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-explore-0d1117?style=flat-square&logo=github&color=8da3b8&labelColor=0d1117" alt="Repositories"/>
+  </a>
 </p>
 
 ---
 
-## ▸ Operating bias
+## `▸` Who I am
 
-I build **clear edges between domains** — APIs, persistence, auth, and UI — then harden the seams with observability and docs. I care about **predictable deploys**, **honest error states**, and interfaces that respect the person on the other side of the screen.
-
----
-
-## ▸ Connect
-
-<p>
-<a href="https://linkedin.com/in/prajwal-reddy-34024b307"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://instagram.com/__prajwal_reddy_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-<a href="mailto:prajwalbr0304@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://www.codechef.com/users/prajwal_br"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/></a>
-<a href="https://www.hackerrank.com/prajwalbr0304"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/></a>
-<a href="https://leetcode.com/prajwal-br/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-</p>
+I build **clear edges between domains** — APIs, persistence, auth, UI — then harden every seam with observability and documentation.
+I care about **predictable deploys**, **honest error states**, and interfaces that respect the person on the other side of the screen.
+I don't ship features. I ship systems that can be reasoned about at 2am.
 
 ---
 
-## ▸ Stack I ship with
-
-<p>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</p>
-
----
-
-## ▸ Landmarks — repositories
-
-| | |
-|:---|:---|
-| [**MediTrustChain**](https://github.com/PRAJWAL-BR-0304/MediTrustChain) | Blockchain-backed pharma supply chain · Next.js · Supabase · Flutter |
-| [**Habit Haven**](https://github.com/PRAJWAL-BR-0304/HabitTracker) | Mobile-first habit tracker · React · Vite · PWA |
-| [**KnowBase**](https://github.com/PRAJWAL-BR-0304/KNOWLEDGE-BASE) | AI knowledge pages · Supabase · Groq · Vite |
-| [**PDF → Text**](https://github.com/PRAJWAL-BR-0304/pdf-to-text-converter) | Flask OCR pipeline · exports & email |
-| [**DeFi-Homes**](https://github.com/PRAJWAL-BR-0304/DeFi-Homes) | Web3 / DeFi experiments |
-| [**AI Grammar**](https://github.com/PRAJWAL-BR-0304/AI-GRAMMAR) | AI-assisted language learning |
-| [**Student Management**](https://github.com/PRAJWAL-BR-0304/Student-Management-System) | Full-stack academic workflows |
-
-<p align="center"><a href="https://github.com/PRAJWAL-BR-0304?tab=repositories"><b>All repositories →</b></a> · <a href="https://github.com/PRAJWAL-BR-0304?tab=stars"><b>Stars →</b></a></p>
-
----
-
-## ▸ Loop (how work moves)
+## `▸` The loop
 
 ```mermaid
 flowchart LR
-  A[Shape the problem] --> B[Spike + contract]
-  B --> C[Build thin vertical slice]
-  C --> D[Instrument + document]
+  A([🔍 Shape the problem]) --> B([⚡ Spike + Contract])
+  B --> C([🏗️ Build thin vertical slice])
+  C --> D([📡 Instrument + Document])
   D --> A
+
+  style A fill:#1a1f2e,stroke:#c4a6ff,color:#c4a6ff
+  style B fill:#1a1f2e,stroke:#7ee787,color:#7ee787
+  style C fill:#1a1f2e,stroke:#c4a6ff,color:#c4a6ff
+  style D fill:#1a1f2e,stroke:#7ee787,color:#7ee787
 ```
 
 ---
 
-## ▸ Colophon
+## `▸` Stack — spinning in orbit
 
-This profile uses a **repo-local SVG** banner (no third-party header image host), **shields.io** for counters, **komarev** for view counts, and **demolab** typing SVG — chosen after dropping widgets that often `503`/`404` (aggregated stats & trophies) so the page stays **quiet when services hiccup**.
+<p align="center">
+  <img src="./assets/tech-orbit.svg" width="100%" alt="Tech orbit — spinning rings of Prajwal's stack"/>
+</p>
 
 ---
 
-<p align="center"><sub>Thanks for visiting — build something kind today.</sub></p>
+## `▸` Signal strength
+
+<p align="center">
+  <img src="./assets/skill-bars.svg" width="100%" alt="Animated skill proficiency bars"/>
+</p>
+
+---
+
+## `▸` Landmarks
+
+| | Project | Signal |
+|:-:|:--------|:-------|
+| ⛓️ | [**MediTrustChain**](https://github.com/PRAJWAL-BR-0304/MediTrustChain) | Blockchain-backed pharma supply chain · Next.js · Supabase · Flutter · Solidity smart contracts |
+| 🔄 | [**Habit Haven**](https://github.com/PRAJWAL-BR-0304/HabitTracker) | Mobile-first habit tracker · React · Vite · full PWA — works offline, installs to home screen |
+| 🧠 | [**KnowBase**](https://github.com/PRAJWAL-BR-0304/KNOWLEDGE-BASE) | AI-powered knowledge pages · Supabase · Groq inference · Vite — your second brain, accelerated |
+| 📄 | [**PDF → Text**](https://github.com/PRAJWAL-BR-0304/pdf-to-text-converter) | Flask OCR pipeline · bulk extraction · email export — documents become data |
+| 🏠 | [**DeFi-Homes**](https://github.com/PRAJWAL-BR-0304/DeFi-Homes) | Web3 real estate experiments · DeFi primitives · on-chain ownership proofs |
+| ✍️ | [**AI Grammar**](https://github.com/PRAJWAL-BR-0304/AI-GRAMMAR) | AI-assisted language learning — corrections that explain, not just correct |
+| 🎓 | [**Student Management**](https://github.com/PRAJWAL-BR-0304/Student-Management-System) | Full-stack academic workflows · role-based access · clean audit trail |
+
+<p align="center">
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=repositories"><b>All repositories →</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=stars"><b>Stars →</b></a>
+</p>
+
+---
+
+## `▸` Stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&icon_color=7ee787&text_color=8da3b8&rank_icon=github"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&icon_color=7ee787&text_color=8da3b8&rank_icon=github" height="165" alt="GitHub Stats"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&text_color=8da3b8&langs_count=8"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&text_color=8da3b8&langs_count=8" height="165" alt="Top Languages"/>
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.demolab.com/?user=PRAJWAL-BR-0304&theme=tokyonight&hide_border=true&background=0D1117&ring=C4A6FF&fire=7EE787&currStreakLabel=C4A6FF&sideLabels=8DA3B8&dates=8DA3B8&sideNums=C4A6FF" alt="GitHub Streak" width="55%"/>
+</p>
+
+---
+
+## `▸` Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PRAJWAL-BR-0304&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c4a6ff&line=7ee787&point=ffffff&area=true&area_color=c4a6ff" width="100%" alt="Contribution activity graph"/>
+</p>
+
+---
+
+## `▸` Contribution map
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg"/>
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" width="100%"/>
+  </picture>
+</p>
+
+> **Setup required for snake:** Go to **Settings → Actions → General → Workflow permissions** and enable *"Read and write permissions"*. Then run the `Generate Snake` workflow manually once from the **Actions** tab. After that it auto-runs every 12 hours.
+
+---
+
+## `▸` Connect
+
+<p>
+  <a href="https://linkedin.com/in/prajwal-reddy-34024b307">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://instagram.com/__prajwal_reddy_">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:prajwalbr0304@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://www.codechef.com/users/prajwal_br">
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
+  </a>
+  <a href="https://www.hackerrank.com/prajwalbr0304">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
+  </a>
+  <a href="https://leetcode.com/prajwal-br/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+</p>
+
+---
+
+## `▸` Colophon
+
+All SVG assets are **repo-local** (zero external image host dependency). Badges via **shields.io**. Stats via **vercel/github-readme-stats**. Snake via self-hosted **GitHub Actions** (Platane/snk). Activity graph via **ashutosh00710/github-readme-activity-graph**. Typing effect via **demolab**. Dropped: aggregated trophies and wakatime widgets (high 503 rate). Result: a profile that loads clean even when third-party services hiccup.
+
+---
+
+<p align="center"><sub><i>build something kind today.</i></sub></p>
