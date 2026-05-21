@@ -10,6 +10,7 @@
   <rect width="800" height="320" rx="12" fill="url(#gl)" opacity="0.55"/>
   <text x="400" y="36" text-anchor="middle" fill="#57606a" font-family="ui-monospace,monospace" font-size="12" letter-spacing="0.2em">CONTRIBUTION SNAKE (SMIL)</text>
   <!-- Path mimics a contribution-grid tour -->
+  <path id="mp" fill="none" stroke="none" d="M 72 260 L 72 140 L 180 140 L 180 88 L 300 88 L 300 200 L 420 200 L 420 112 L 560 112 L 560 228 L 700 228 L 700 152 L 748 152"/>
   <path id="trail" fill="none" stroke="#2da44e" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.92"
         d="M 72 260 L 72 140 L 180 140 L 180 88 L 300 88 L 300 200 L 420 200 L 420 112 L 560 112 L 560 228 L 700 228 L 700 152 L 748 152"
         stroke-dasharray="120 900">
@@ -20,6 +21,5 @@
       <mpath href="#mp"/>
     </animateMotion>
   </circle>
-  <path id="mp" fill="none" stroke="none" d="M 72 260 L 72 140 L 180 140 L 180 88 L 300 88 L 300 200 L 420 200 L 420 112 L 560 112 L 560 228 L 700 228 L 700 152 L 748 152"/>
   <text x="400" y="302" text-anchor="middle" fill="#6e7781" font-family="system-ui,sans-serif" font-size="11">Enable Actions + workflow to swap in real contribution-grid snake from branch output</text>
 </svg>

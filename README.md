@@ -1,6 +1,6 @@
-<!-- In-repo images use paths relative to this README (same repo). GitHub resolves them on your profile and in the repo viewer—no raw.githubusercontent.com needed. -->
+<!-- Profile README: use absolute raw.githubusercontent.com URLs (relative ./assets paths often break on github.com/username). Branch: main -->
 <p align="center">
-  <img src="./assets/orbit-banner.svg" width="100%" alt="Prajwal B R — orbit banner"/>
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/orbit-banner.svg" width="100%" alt="Prajwal B R — orbit banner"/>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ flowchart LR
 ## `▸` Stack — spinning in orbit
 
 <p align="center">
-  <img src="./assets/tech-orbit.svg" width="100%" alt="Tech orbit"/>
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/tech-orbit.svg" width="100%" alt="Tech orbit"/>
 </p>
 
 ---
@@ -57,7 +57,7 @@ flowchart LR
 ## `▸` Signal strength
 
 <p align="center">
-  <img src="./assets/skill-bars.svg" width="100%" alt="Skill bars"/>
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/skill-bars.svg" width="100%" alt="Skill bars"/>
 </p>
 
 ---
@@ -110,10 +110,10 @@ flowchart LR
 ## `▸` Echo Chase (built-in motion)
 
 <p align="center">
-  <img src="./assets/echo-chase.svg" width="100%" alt="Echo Chase — SMIL animation"/>
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/echo-chase.svg" width="100%" alt="Echo Chase — SMIL animation"/>
 </p>
 
-<p align="center"><sub>Repo-local <strong>SMIL</strong> animation (no JavaScript). GitHub often ignores CSS <code>@keyframes</code> inside SVGs loaded as images; this file uses <code>animate</code> on attributes so motion still plays.</sub></p>
+<p align="center"><sub>Repo-local <strong>SMIL</strong> animation (no JavaScript). Skill bars and orbit art use <strong>native SVG + SMIL</strong> so they still animate inside README <code>&lt;img&gt;</code>; GitHub strips <code>foreignObject</code> HTML and often ignores CSS <code>@keyframes</code> there.</sub></p>
 
 ---
 
@@ -121,12 +121,12 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg"/>
-    <img alt="Contribution-style snake (SMIL)" src="./assets/snake-light.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/snake-dark.svg"/>
+    <img alt="Contribution-style snake (SMIL)" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/snake-light.svg" width="100%"/>
   </picture>
 </p>
 
-**Default:** SMIL snake above lives on **`main`** in `./assets/` so it always loads (no `output` branch). **Optional real grid snake:** enable **Actions** on your account, set **Settings → Actions → General → Workflow permissions: Read and write**, then run **Actions → Generate Snake**. After the workflow creates branch **`output`**, you can swap the `picture` block to the Platane SVGs on that branch if you prefer.
+**Default:** SMIL snake above is served from **`main`** via absolute raw URLs so it shows on your **profile** (not only inside the repo). **Optional real grid snake:** enable **Actions**, set workflow permissions to **Read and write**, run **Generate Snake**, then point the `picture` block at the Platane SVGs on branch **`output`** if you prefer.
 
 ---
 
@@ -157,12 +157,12 @@ flowchart LR
 
 ## `▸` Colophon
 
-- **Images:** `./assets/...` (repo-relative) so GitHub serves them from this repository on your profile—works even when anonymous `curl` to `raw.githubusercontent.com` returns `404` from some networks.
+- **Images:** `https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/...` (required for **profile** README). Skill bars use **SVG rects + SMIL**, not `foreignObject` HTML (GitHub README strips that).
 - **Typing:** `readme-typing-svg.demolab.com` (animated server-side PNG/SVG).
 - **Streak:** `github-readme-streak-stats.demolab.com` (Heroku mirror is often down).
 - **Calendar:** `ghchart.rshah.org` SVG chart.
 - **Echo Chase:** custom SMIL in-repo (reliable motion in README).
-- **Snake:** SMIL fallback in `./assets/snake-*.svg`; optional Platane `snk` → **`output`** branch via workflow when Actions are enabled. Removed fragile Vercel stats / activity graph widgets that frequently `503`.
+- **Snake:** SMIL `snake-*.svg` on `main` (same raw URL pattern). Optional Platane `snk` → **`output`** when Actions run.
 
 ---
 

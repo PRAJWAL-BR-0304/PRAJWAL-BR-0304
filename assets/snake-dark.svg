@@ -9,6 +9,7 @@
   <rect width="800" height="320" rx="12" fill="#0d1117"/>
   <rect width="800" height="320" rx="12" fill="url(#gd)" opacity="0.65"/>
   <text x="400" y="36" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,monospace" font-size="12" letter-spacing="0.2em">CONTRIBUTION SNAKE (SMIL)</text>
+  <path id="mpd" fill="none" stroke="none" d="M 72 260 L 72 140 L 180 140 L 180 88 L 300 88 L 300 200 L 420 200 L 420 112 L 560 112 L 560 228 L 700 228 L 700 152 L 748 152"/>
   <path fill="none" stroke="#3fb950" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.95"
         d="M 72 260 L 72 140 L 180 140 L 180 88 L 300 88 L 300 200 L 420 200 L 420 112 L 560 112 L 560 228 L 700 228 L 700 152 L 748 152"
         stroke-dasharray="120 900">
@@ -19,6 +20,5 @@
       <mpath href="#mpd"/>
     </animateMotion>
   </circle>
-  <path id="mpd" fill="none" stroke="none" d="M 72 260 L 72 140 L 180 140 L 180 88 L 300 88 L 300 200 L 420 200 L 420 112 L 560 112 L 560 228 L 700 228 L 700 152 L 748 152"/>
   <text x="400" y="302" text-anchor="middle" fill="#6e7681" font-family="system-ui,sans-serif" font-size="11">Enable Actions + workflow to swap in real contribution-grid snake from branch output</text>
 </svg>

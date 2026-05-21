@@ -120,4 +120,9 @@
       <text font-family="JetBrains Mono,monospace" font-size="6.2" font-weight="700" fill="#3ECF8E" text-anchor="middle" dy="3">Supabase</text>
     </g>
   </g>
+
+  <!-- SMIL: dashed orbit motion in README &lt;img&gt; -->
+  <ellipse cx="450" cy="150" rx="100" ry="52" fill="none" stroke="#7ee787" stroke-width="0.7" stroke-dasharray="8 10" opacity="0.35">
+    <animate attributeName="stroke-dashoffset" from="0" to="-180" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
 </svg>
