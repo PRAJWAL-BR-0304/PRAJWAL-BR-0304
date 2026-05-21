@@ -1,38 +1,44 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/orbit-banner.svg" width="100%" alt="Prajwal B R — orbit banner" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a5f,100:0ea5e9&height=220&section=header&text=Prajwal%20B%20R&fontSize=48&fontAlignY=35&desc=Full-stack%20%7C%20Cloud%20%7C%20Web3&descAlignY=55&descSize=18&fontColor=ffffff" alt="header" width="100%"/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=C4A6FF&center=true&vCenter=true&multiline=true&width=780&height=90&lines=Design+systems+at+the+seams;Ship+observe+tighten+the+loop;Cloud+%7C+TypeScript+%7C+Solidity" alt="Animated taglines" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&lines=Building+thoughtful+products;AWS+%7C+React+%7C+Node+%7C+Python;Open+to+collaboration+%F0%9F%9A%80" alt="Typing SVG" />
+<p align="center">
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=followers"><img src="https://img.shields.io/github/followers/PRAJWAL-BR-0304?label=Followers&logo=github&style=flat-square&color=7ee787&labelColor=12101f" alt="GitHub followers"/></a>
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=repositories"><img src="https://img.shields.io/github/repos/PRAJWAL-BR-0304?label=Public%20repos&logo=github&style=flat-square&color=c4a6ff&labelColor=12101f" alt="Public repositories"/></a>
+  <img src="https://komarev.com/ghpvc/?username=PRAJWAL-BR-0304&label=Profile+views&color=8da3b8&style=flat-square&labelColor=12101f" alt="Profile views" />
+</p>
 
-<br/>
+---
 
-<a href="https://github.com/PRAJWAL-BR-0304"><img src="https://komarev.com/ghpvc/?username=PRAJWAL-BR-0304&label=Profile%20views&color=0ea5e9&style=flat" alt="profile views"/></a>
-<img src="https://img.shields.io/badge/Focus-Full--stack-0ea5e9?style=flat-square" alt="focus"/>
-<img src="https://img.shields.io/badge/Location-India-64748b?style=flat-square" alt="location"/>
+## ▸ Operating bias
 
-<br/><br/>
+I build **clear edges between domains** — APIs, persistence, auth, and UI — then harden the seams with observability and docs. I care about **predictable deploys**, **honest error states**, and interfaces that respect the person on the other side of the screen.
 
-I craft **end-to-end experiences** — from APIs and databases to polished UIs — with a strong interest in **cloud architecture**, **modern web**, and **Web3**. I like clean code, clear docs, and shipping things people actually use.
+---
 
-<br/>
+## ▸ Connect
 
-### Connect
+<p>
+<a href="https://linkedin.com/in/prajwal-reddy-34024b307"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://instagram.com/__prajwal_reddy_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="mailto:prajwalbr0304@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.codechef.com/users/prajwal_br"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/></a>
+<a href="https://www.hackerrank.com/prajwalbr0304"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/></a>
+<a href="https://leetcode.com/prajwal-br/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prajwal-reddy-34024b307)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/__prajwal_reddy_)
-[![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prajwalbr0304@gmail.com)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/prajwal_br)
-[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/prajwalbr0304)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/prajwal-br)
+---
 
-<br/>
-
-### Tech I work with
+## ▸ Stack I ship with
 
 <p>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
@@ -42,43 +48,40 @@ I craft **end-to-end experiences** — from APIs and databases to polished UIs �
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
-<br/>
+---
 
-### GitHub highlights
+## ▸ Landmarks — repositories
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=PRAJWAL-BR-0304&theme=algolia&no-frame=true&column=7&margin-w=8&margin-h=8" alt="trophies" width="100%"/>
-</p>
+| | |
+|:---|:---|
+| [**MediTrustChain**](https://github.com/PRAJWAL-BR-0304/MediTrustChain) | Blockchain-backed pharma supply chain · Next.js · Supabase · Flutter |
+| [**Habit Haven**](https://github.com/PRAJWAL-BR-0304/HabitTracker) | Mobile-first habit tracker · React · Vite · PWA |
+| [**KnowBase**](https://github.com/PRAJWAL-BR-0304/KNOWLEDGE-BASE) | AI knowledge pages · Supabase · Groq · Vite |
+| [**PDF → Text**](https://github.com/PRAJWAL-BR-0304/pdf-to-text-converter) | Flask OCR pipeline · exports & email |
+| [**DeFi-Homes**](https://github.com/PRAJWAL-BR-0304/DeFi-Homes) | Web3 / DeFi experiments |
+| [**AI Grammar**](https://github.com/PRAJWAL-BR-0304/AI-GRAMMAR) | AI-assisted language learning |
+| [**Student Management**](https://github.com/PRAJWAL-BR-0304/Student-Management-System) | Full-stack academic workflows |
 
-<table align="center">
-<tr>
-<td align="center" valign="top" width="33%">
-<img src="https://github-readme-stats.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" height="180"/>
-</td>
-<td align="center" valign="top" width="33%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" height="180"/>
-</td>
-<td align="center" valign="top" width="33%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=PRAJWAL-BR-0304&theme=tokyonight&hide_border=true" alt="Streak" height="180"/>
-</td>
-</tr>
-</table>
+<p align="center"><a href="https://github.com/PRAJWAL-BR-0304?tab=repositories"><b>All repositories →</b></a> · <a href="https://github.com/PRAJWAL-BR-0304?tab=stars"><b>Stars →</b></a></p>
 
-<br/>
+---
 
-### Featured projects
+## ▸ Loop (how work moves)
 
-| Project | Description |
-| :--- | :--- |
-| [**KNOWLEDGE-BASE**](https://github.com/PRAJWAL-BR-0304/KNOWLEDGE-BASE) | Knowledge & RAG-style tooling |
-| [**DeFi-Homes**](https://github.com/PRAJWAL-BR-0304/DeFi-Homes) | Web3 / DeFi exploration |
-| [**AI-GRAMMAR**](https://github.com/PRAJWAL-BR-0304/AI-GRAMMAR) | AI-assisted language learning |
-| [**Student-Management-System**](https://github.com/PRAJWAL-BR-0304/Student-Management-System) | Full-stack academic workflows |
+```mermaid
+flowchart LR
+  A[Shape the problem] --> B[Spike + contract]
+  B --> C[Build thin vertical slice]
+  C --> D[Instrument + document]
+  D --> A
+```
 
-<sub>⚡ Fun fact: I debug in my dreams and sometimes wake up with the fix.</sub>
+---
 
-<br/>
+## ▸ Colophon
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:1e3a5f,100:0f172a&height=120&section=footer" alt="footer" width="100%"/>
+This profile uses a **repo-local SVG** banner (no third-party header image host), **shields.io** for counters, **komarev** for view counts, and **demolab** typing SVG — chosen after dropping widgets that often `503`/`404` (aggregated stats & trophies) so the page stays **quiet when services hiccup**.
 
-</div>
+---
+
+<p align="center"><sub>Thanks for visiting — build something kind today.</sub></p>
