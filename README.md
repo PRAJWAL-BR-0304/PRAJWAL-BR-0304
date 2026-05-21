@@ -1,6 +1,6 @@
-<!-- Asset base: raw.githubusercontent.com so README images work everywhere (profile, forks, RSS). Branch: main -->
+<!-- In-repo images use paths relative to this README (same repo). GitHub resolves them on your profile and in the repo viewer—no raw.githubusercontent.com needed. -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/orbit-banner.svg" width="100%" alt="Prajwal B R — orbit banner"/>
+  <img src="./assets/orbit-banner.svg" width="100%" alt="Prajwal B R — orbit banner"/>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ flowchart LR
 ## `▸` Stack — spinning in orbit
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/tech-orbit.svg" width="100%" alt="Tech orbit"/>
+  <img src="./assets/tech-orbit.svg" width="100%" alt="Tech orbit"/>
 </p>
 
 ---
@@ -57,7 +57,7 @@ flowchart LR
 ## `▸` Signal strength
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/skill-bars.svg" width="100%" alt="Skill bars"/>
+  <img src="./assets/skill-bars.svg" width="100%" alt="Skill bars"/>
 </p>
 
 ---
@@ -110,24 +110,23 @@ flowchart LR
 ## `▸` Echo Chase (built-in motion)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/echo-chase.svg" width="100%" alt="Echo Chase — SMIL animation"/>
+  <img src="./assets/echo-chase.svg" width="100%" alt="Echo Chase — SMIL animation"/>
 </p>
 
 <p align="center"><sub>Repo-local <strong>SMIL</strong> animation (no JavaScript). GitHub often ignores CSS <code>@keyframes</code> inside SVGs loaded as images; this file uses <code>animate</code> on attributes so motion still plays.</sub></p>
 
 ---
 
-## `▸` Contribution snake (optional)
+## `▸` Contribution snake
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg"/>
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg"/>
+    <img alt="Contribution-style snake (SMIL)" src="./assets/snake-light.svg" width="100%"/>
   </picture>
 </p>
 
-Run **Actions → Generate Snake → Run workflow** once (repo needs **Settings → Actions → General → Workflow permissions: Read and write**). SVGs are published to the **`output`** branch; until then this block may show a broken image — **Echo Chase** above always works.
+**Default:** SMIL snake above lives on **`main`** in `./assets/` so it always loads (no `output` branch). **Optional real grid snake:** enable **Actions** on your account, set **Settings → Actions → General → Workflow permissions: Read and write**, then run **Actions → Generate Snake**. After the workflow creates branch **`output`**, you can swap the `picture` block to the Platane SVGs on that branch if you prefer.
 
 ---
 
@@ -158,12 +157,12 @@ Run **Actions → Generate Snake → Run workflow** once (repo needs **Settings 
 
 ## `▸` Colophon
 
-- **Images:** `raw.githubusercontent.com/.../main/assets/...` so the profile README resolves on every surface (not only `github.com`).
+- **Images:** `./assets/...` (repo-relative) so GitHub serves them from this repository on your profile—works even when anonymous `curl` to `raw.githubusercontent.com` returns `404` from some networks.
 - **Typing:** `readme-typing-svg.demolab.com` (animated server-side PNG/SVG).
 - **Streak:** `github-readme-streak-stats.demolab.com` (Heroku mirror is often down).
 - **Calendar:** `ghchart.rshah.org` SVG chart.
 - **Echo Chase:** custom SMIL in-repo (reliable motion in README).
-- **Snake:** Platane `snk` + deploy to **`output`** branch (see workflow). Removed fragile Vercel stats / activity graph widgets that frequently `503`.
+- **Snake:** SMIL fallback in `./assets/snake-*.svg`; optional Platane `snk` → **`output`** branch via workflow when Actions are enabled. Removed fragile Vercel stats / activity graph widgets that frequently `503`.
 
 ---
 
