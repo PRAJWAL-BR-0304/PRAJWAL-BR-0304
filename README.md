@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/PRAJWAL-BR-0304?tab=followers"><img src="https://img.shields.io/github/followers/PRAJWAL-BR-0304?label=Followers&logo=github&style=flat-square&color=7ee787&labelColor=12101f" alt="GitHub followers"/></a>
-  <a href="https://github.com/PRAJWAL-BR-0304?tab=repositories"><img src="https://img.shields.io/github/repos/PRAJWAL-BR-0304?label=Public%20repos&logo=github&style=flat-square&color=c4a6ff&labelColor=12101f" alt="Public repositories"/></a>
+  <a href="https://github.com/PRAJWAL-BR-0304?tab=repositories"><img src="https://img.shields.io/badge/Repositories-view-12101f?style=flat-square&logo=github&color=c4a6ff&labelColor=12101f" alt="View repositories"/></a>
   <img src="https://komarev.com/ghpvc/?username=PRAJWAL-BR-0304&label=Profile+views&color=8da3b8&style=flat-square&labelColor=12101f" alt="Profile views" />
 </p>
 
