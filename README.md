@@ -1,5 +1,6 @@
+<!-- Asset base: raw.githubusercontent.com so README images work everywhere (profile, forks, RSS). Branch: main -->
 <p align="center">
-  <img src="./assets/orbit-banner.svg" width="100%" alt="Prajwal B R — animated orbit banner"/>
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/orbit-banner.svg" width="100%" alt="Prajwal B R — orbit banner"/>
 </p>
 
 <p align="center">
@@ -48,7 +49,7 @@ flowchart LR
 ## `▸` Stack — spinning in orbit
 
 <p align="center">
-  <img src="./assets/tech-orbit.svg" width="100%" alt="Tech orbit — spinning rings of Prajwal's stack"/>
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/tech-orbit.svg" width="100%" alt="Tech orbit"/>
 </p>
 
 ---
@@ -56,7 +57,7 @@ flowchart LR
 ## `▸` Signal strength
 
 <p align="center">
-  <img src="./assets/skill-bars.svg" width="100%" alt="Animated skill proficiency bars"/>
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/skill-bars.svg" width="100%" alt="Skill bars"/>
 </p>
 
 ---
@@ -81,45 +82,52 @@ flowchart LR
 
 ---
 
-## `▸` Stats
+## `▸` Signals (always-on badges)
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&icon_color=7ee787&text_color=8da3b8&rank_icon=github"/>
-    <img src="https://github-readme-stats.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&icon_color=7ee787&text_color=8da3b8&rank_icon=github" height="165" alt="GitHub Stats"/>
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&text_color=8da3b8&langs_count=8"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&text_color=8da3b8&langs_count=8" height="165" alt="Top Languages"/>
-  </picture>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61dafb" alt="React"/>
+  <img src="https://img.shields.io/badge/Node-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=PRAJWAL-BR-0304&theme=tokyonight&hide_border=true&background=0D1117&ring=C4A6FF&fire=7EE787&currStreakLabel=C4A6FF&sideLabels=8DA3B8&dates=8DA3B8&sideNums=C4A6FF" alt="GitHub Streak" width="55%"/>
+  <img src="https://github-readme-streak-stats.demolab.com/?user=PRAJWAL-BR-0304&theme=tokyonight&hide_border=true&background=0D1117&ring=C4A6FF&fire=7EE787&currStreakLabel=C4A6FF&sideLabels=8DA3B8&dates=8DA3B8&sideNums=C4A6FF" alt="GitHub streak" width="58%"/>
 </p>
 
 ---
 
-## `▸` Activity
+## `▸` Contribution calendar
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PRAJWAL-BR-0304&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c4a6ff&line=7ee787&point=ffffff&area=true&area_color=c4a6ff" width="100%" alt="Contribution activity graph"/>
+  <img src="https://ghchart.rshah.org/PRAJWAL-BR-0304" width="100%" alt="Contribution chart"/>
 </p>
 
 ---
 
-## `▸` Contribution map
+## `▸` Echo Chase (built-in motion)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/echo-chase.svg" width="100%" alt="Echo Chase — SMIL animation"/>
+</p>
+
+<p align="center"><sub>Repo-local <strong>SMIL</strong> animation (no JavaScript). GitHub often ignores CSS <code>@keyframes</code> inside SVGs loaded as images; this file uses <code>animate</code> on attributes so motion still plays.</sub></p>
+
+---
+
+## `▸` Contribution snake (optional)
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg"/>
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" width="100%"/>
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" width="100%"/>
   </picture>
 </p>
 
-> **Setup required for snake:** Go to **Settings → Actions → General → Workflow permissions** and enable *"Read and write permissions"*. Then run the `Generate Snake` workflow manually once from the **Actions** tab. After that it auto-runs every 12 hours.
+Run **Actions → Generate Snake → Run workflow** once (repo needs **Settings → Actions → General → Workflow permissions: Read and write**). SVGs are published to the **`output`** branch; until then this block may show a broken image — **Echo Chase** above always works.
 
 ---
 
@@ -150,7 +158,12 @@ flowchart LR
 
 ## `▸` Colophon
 
-All SVG assets are **repo-local** (zero external image host dependency). Badges via **shields.io**. Stats via **vercel/github-readme-stats**. Snake via self-hosted **GitHub Actions** (Platane/snk). Activity graph via **ashutosh00710/github-readme-activity-graph**. Typing effect via **demolab**. Dropped: aggregated trophies and wakatime widgets (high 503 rate). Result: a profile that loads clean even when third-party services hiccup.
+- **Images:** `raw.githubusercontent.com/.../main/assets/...` so the profile README resolves on every surface (not only `github.com`).
+- **Typing:** `readme-typing-svg.demolab.com` (animated server-side PNG/SVG).
+- **Streak:** `github-readme-streak-stats.demolab.com` (Heroku mirror is often down).
+- **Calendar:** `ghchart.rshah.org` SVG chart.
+- **Echo Chase:** custom SMIL in-repo (reliable motion in README).
+- **Snake:** Platane `snk` + deploy to **`output`** branch (see workflow). Removed fragile Vercel stats / activity graph widgets that frequently `503`.
 
 ---
 
