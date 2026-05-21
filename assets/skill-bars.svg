@@ -1,69 +1,80 @@
-<svg viewBox="0 0 820 280" xmlns="http://www.w3.org/2000/svg" width="100%" role="img" aria-labelledby="sbTitle sbDesc">
-  <title id="sbTitle">Skill signal bars</title>
-  <desc id="sbDesc">Pure SVG bars with SMIL width animation. GitHub README strips foreignObject HTML, so gradients use native SVG.</desc>
+<svg viewBox="0 0 820 280" xmlns="http://www.w3.org/2000/svg" width="100%">
   <defs>
     <radialGradient id="sbg" cx="50%" cy="50%" r="70%">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#070a0f"/>
     </radialGradient>
-    <linearGradient id="gBar1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c4a6ff"/><stop offset="100%" stop-color="#7ee787"/></linearGradient>
-    <linearGradient id="gBar2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#61DAFB"/><stop offset="100%" stop-color="#c4a6ff"/></linearGradient>
-    <linearGradient id="gBar3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7ee787"/><stop offset="100%" stop-color="#c4a6ff"/></linearGradient>
-    <linearGradient id="gBar4" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FF9900"/><stop offset="100%" stop-color="#7ee787"/></linearGradient>
-    <linearGradient id="gBar5" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3776AB"/><stop offset="100%" stop-color="#61DAFB"/></linearGradient>
-    <linearGradient id="gBar6" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c4a6ff"/><stop offset="100%" stop-color="#FF9900"/></linearGradient>
+    <style>
+      @keyframes fillBar1 { from{width:0} to{width:92%} }
+      @keyframes fillBar2 { from{width:0} to{width:90%} }
+      @keyframes fillBar3 { from{width:0} to{width:88%} }
+      @keyframes fillBar4 { from{width:0} to{width:85%} }
+      @keyframes fillBar5 { from{width:0} to{width:82%} }
+      @keyframes fillBar6 { from{width:0} to{width:75%} }
+      @keyframes numCount { 0%{opacity:0} 80%{opacity:0} 100%{opacity:1} }
+      .b1 { animation: fillBar1 2.2s cubic-bezier(0.4,0,0.2,1) 0.2s both }
+      .b2 { animation: fillBar2 2.2s cubic-bezier(0.4,0,0.2,1) 0.4s both }
+      .b3 { animation: fillBar3 2.2s cubic-bezier(0.4,0,0.2,1) 0.6s both }
+      .b4 { animation: fillBar4 2.2s cubic-bezier(0.4,0,0.2,1) 0.8s both }
+      .b5 { animation: fillBar5 2.2s cubic-bezier(0.4,0,0.2,1) 1.0s both }
+      .b6 { animation: fillBar6 2.2s cubic-bezier(0.4,0,0.2,1) 1.2s both }
+      .num { animation: numCount 2.5s ease both }
+      .num1{animation-delay:2.2s} .num2{animation-delay:2.4s} .num3{animation-delay:2.6s}
+      .num4{animation-delay:2.8s} .num5{animation-delay:3.0s} .num6{animation-delay:3.2s}
+    </style>
   </defs>
 
   <rect width="820" height="280" fill="url(#sbg)" rx="12"/>
 
+  <!-- Header -->
   <text x="410" y="32" font-family="JetBrains Mono,monospace" font-size="11" font-weight="600" fill="#8da3b8" text-anchor="middle" letter-spacing="3" opacity="0.6">PROFICIENCY · SIGNAL STRENGTH</text>
   <line x1="60" y1="45" x2="760" y2="45" stroke="#c4a6ff" stroke-width="0.4" opacity="0.2"/>
 
-  <!-- Row 1: TypeScript 92% -->
+  <!-- Row 1: TypeScript -->
   <text x="60" y="80" font-family="JetBrains Mono,monospace" font-size="11" font-weight="600" fill="#c4a6ff">TypeScript</text>
   <rect x="220" y="68" width="520" height="10" rx="5" fill="#1a1f2e"/>
-  <rect x="220" y="68" width="0" height="10" rx="5" fill="url(#gBar1)">
-    <animate attributeName="width" from="0" to="478" dur="2.2s" fill="freeze" begin="0.2s" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
-  </rect>
-  <text x="752" y="80" font-family="JetBrains Mono,monospace" font-size="10" fill="#c4a6ff" text-anchor="end" opacity="1">92%</text>
+  <foreignObject x="220" y="68" width="520" height="10">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="b1" style="height:10px;background:linear-gradient(90deg,#c4a6ff,#7ee787);border-radius:5px;max-width:92%;min-width:0"/>
+  </foreignObject>
+  <text class="num num1" x="752" y="80" font-family="JetBrains Mono,monospace" font-size="10" fill="#c4a6ff" text-anchor="end">92%</text>
 
-  <!-- Row 2: React 90% -->
+  <!-- Row 2: React + Next.js -->
   <text x="60" y="120" font-family="JetBrains Mono,monospace" font-size="11" font-weight="600" fill="#61DAFB">React / Next.js</text>
   <rect x="220" y="108" width="520" height="10" rx="5" fill="#1a1f2e"/>
-  <rect x="220" y="108" width="0" height="10" rx="5" fill="url(#gBar2)">
-    <animate attributeName="width" from="0" to="468" dur="2.2s" fill="freeze" begin="0.35s" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
-  </rect>
-  <text x="752" y="120" font-family="JetBrains Mono,monospace" font-size="10" fill="#61DAFB" text-anchor="end" opacity="1">90%</text>
+  <foreignObject x="220" y="108" width="520" height="10">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="b2" style="height:10px;background:linear-gradient(90deg,#61DAFB,#c4a6ff);border-radius:5px;max-width:90%;min-width:0"/>
+  </foreignObject>
+  <text class="num num2" x="752" y="120" font-family="JetBrains Mono,monospace" font-size="10" fill="#61DAFB" text-anchor="end">90%</text>
 
-  <!-- Row 3: System Design 88% -->
+  <!-- Row 3: System Design -->
   <text x="60" y="160" font-family="JetBrains Mono,monospace" font-size="11" font-weight="600" fill="#7ee787">System Design</text>
   <rect x="220" y="148" width="520" height="10" rx="5" fill="#1a1f2e"/>
-  <rect x="220" y="148" width="0" height="10" rx="5" fill="url(#gBar3)">
-    <animate attributeName="width" from="0" to="458" dur="2.2s" fill="freeze" begin="0.5s" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
-  </rect>
-  <text x="752" y="160" font-family="JetBrains Mono,monospace" font-size="10" fill="#7ee787" text-anchor="end" opacity="1">88%</text>
+  <foreignObject x="220" y="148" width="520" height="10">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="b3" style="height:10px;background:linear-gradient(90deg,#7ee787,#c4a6ff);border-radius:5px;max-width:88%;min-width:0"/>
+  </foreignObject>
+  <text class="num num3" x="752" y="160" font-family="JetBrains Mono,monospace" font-size="10" fill="#7ee787" text-anchor="end">88%</text>
 
-  <!-- Row 4: Cloud 85% -->
+  <!-- Row 4: Cloud / AWS -->
   <text x="60" y="200" font-family="JetBrains Mono,monospace" font-size="11" font-weight="600" fill="#FF9900">Cloud / AWS</text>
   <rect x="220" y="188" width="520" height="10" rx="5" fill="#1a1f2e"/>
-  <rect x="220" y="188" width="0" height="10" rx="5" fill="url(#gBar4)">
-    <animate attributeName="width" from="0" to="442" dur="2.2s" fill="freeze" begin="0.65s" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
-  </rect>
-  <text x="752" y="200" font-family="JetBrains Mono,monospace" font-size="10" fill="#FF9900" text-anchor="end" opacity="1">85%</text>
+  <foreignObject x="220" y="188" width="520" height="10">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="b4" style="height:10px;background:linear-gradient(90deg,#FF9900,#7ee787);border-radius:5px;max-width:85%;min-width:0"/>
+  </foreignObject>
+  <text class="num num4" x="752" y="200" font-family="JetBrains Mono,monospace" font-size="10" fill="#FF9900" text-anchor="end">85%</text>
 
-  <!-- Row 5: Python 82% -->
+  <!-- Row 5: Python / Django -->
   <text x="60" y="240" font-family="JetBrains Mono,monospace" font-size="11" font-weight="600" fill="#3776AB">Python / Django</text>
   <rect x="220" y="228" width="520" height="10" rx="5" fill="#1a1f2e"/>
-  <rect x="220" y="228" width="0" height="10" rx="5" fill="url(#gBar5)">
-    <animate attributeName="width" from="0" to="426" dur="2.2s" fill="freeze" begin="0.8s" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
-  </rect>
-  <text x="752" y="240" font-family="JetBrains Mono,monospace" font-size="10" fill="#3776AB" text-anchor="end" opacity="1">82%</text>
+  <foreignObject x="220" y="228" width="520" height="10">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="b5" style="height:10px;background:linear-gradient(90deg,#3776AB,#61DAFB);border-radius:5px;max-width:82%;min-width:0"/>
+  </foreignObject>
+  <text class="num num5" x="752" y="240" font-family="JetBrains Mono,monospace" font-size="10" fill="#3776AB" text-anchor="end">82%</text>
 
-  <!-- Row 6: Solidity 75% -->
+  <!-- Row 6: Solidity / Web3 -->
   <text x="60" y="270" font-family="JetBrains Mono,monospace" font-size="11" font-weight="600" fill="#c4a6ff">Solidity / Web3</text>
   <rect x="220" y="258" width="520" height="10" rx="5" fill="#1a1f2e"/>
-  <rect x="220" y="258" width="0" height="10" rx="5" fill="url(#gBar6)">
-    <animate attributeName="width" from="0" to="390" dur="2.2s" fill="freeze" begin="0.95s" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
-  </rect>
-  <text x="752" y="270" font-family="JetBrains Mono,monospace" font-size="10" fill="#c4a6ff" text-anchor="end" opacity="1">75%</text>
+  <foreignObject x="220" y="258" width="520" height="10">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="b6" style="height:10px;background:linear-gradient(90deg,#c4a6ff,#FF9900);border-radius:5px;max-width:75%;min-width:0"/>
+  </foreignObject>
+  <text class="num num6" x="752" y="270" font-family="JetBrains Mono,monospace" font-size="10" fill="#c4a6ff" text-anchor="end">75%</text>
 </svg>

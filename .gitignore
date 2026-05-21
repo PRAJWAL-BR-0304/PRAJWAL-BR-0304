@@ -1,12 +1,3 @@
-# OS
-.DS_Store
 Thumbs.db
-
-# Editor
-.idea/
-.vscode/
-
-# Env (never commit secrets)
-.env
-.env.local
-
+.DS_Store
+desktop.ini
