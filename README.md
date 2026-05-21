@@ -1,6 +1,6 @@
-<!-- Profile README: GitHub profiles render README images from raw.githubusercontent.com — relative ./assets paths often break on github.com/username. Branch: main -->
+<!-- Profile README: use GitHub Release asset URLs (releases/download/...) — raw.githubusercontent.com often 404s through Camo on profile READMEs. Tag: readme-assets -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/orbit-banner.svg" width="100%" alt="Prajwal B R — animated orbit banner"/>
+  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/orbit-banner.svg" width="100%" alt="Prajwal B R — animated orbit banner"/>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ flowchart LR
 ## `▸` Stack — spinning in orbit
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/tech-orbit.svg" width="100%" alt="Tech orbit — stack visualization"/>
+  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/tech-orbit.svg" width="100%" alt="Tech orbit — stack visualization"/>
 </p>
 
 ---
@@ -57,7 +57,15 @@ flowchart LR
 ## `▸` Signal strength
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/main/assets/skill-bars.svg" width="100%" alt="Skill proficiency bars"/>
+  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/skill-bars.svg" width="100%" alt="Skill proficiency bars"/>
+</p>
+
+---
+
+## `▸` Echo chase
+
+<p align="center">
+  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/echo-chase.svg" width="100%" alt="Echo chase — SMIL motion"/>
 </p>
 
 ---
@@ -110,17 +118,31 @@ flowchart LR
 
 ---
 
-## `▸` Contribution map
+## `▸` Contribution grid (Platane)
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg"/>
-    <img alt="GitHub contribution grid snake" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake.svg"/>
+    <img alt="Platane contribution-grid snake (after Actions run)" src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake.svg" width="100%"/>
   </picture>
 </p>
 
-> **Snake setup:** In the repo go to **Settings → Actions → General → Workflow permissions** and set **Read and write permissions** (needed for the `output` branch). Open **Actions**, run **Generate Snake** once manually. After that it runs on a schedule (every 12 hours) and on pushes to `main`. Until the first run completes, the images above may 404 — that is expected.
+> **Platane grid snake:** After **Generate Snake** runs, these two files are uploaded to the **`readme-assets`** release (same Camo-friendly URL pattern). Until the first successful run, this block may be empty — use the SMIL snake below meanwhile.
+
+---
+
+## `▸` Contribution snake (SMIL)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-light.svg"/>
+    <img alt="Contribution snake (SMIL)" src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-light.svg" width="100%"/>
+  </picture>
+</p>
+
+> **Snake setup:** In **Settings → Actions → General → Workflow permissions**, set **Read and write permissions** (needed for the `output` branch and for uploading Platane SVGs to the **readme-assets** release). Open **Actions**, run **Generate Snake** once. It runs on a schedule and on pushes to `main`.
 
 ---
 
@@ -153,12 +175,13 @@ flowchart LR
 
 | Piece | Source |
 |:------|:-------|
-| Banner, orbit, skill bars | **This repo** — `assets/*.svg` (linked via `raw.githubusercontent.com` so they render on your **profile**, not only inside the repo) |
+| Banner, orbit, skill bars, echo chase | **GitHub Release** [`readme-assets`](https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/tag/readme-assets) — `releases/download/readme-assets/*.svg` (same pattern as KNOWLEDGE-BASE / MediTrustChain; avoids `raw.githubusercontent.com` **404 via Camo**) |
 | Typing line | [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) (demolab) |
 | Stats & languages | [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) |
 | Streak | [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) — **demolab** mirror (Heroku mirror is often unavailable) |
 | Activity graph | [github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) |
-| Contribution snake | **GitHub Actions** — [Platane/snk](https://github.com/Platane/snk) writes SVGs to branch **`output`**; workflow: `.github/workflows/generate-snake.yml` |
+| SMIL snake | **Release** [`readme-assets`](https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/tag/readme-assets) — `snake-light.svg` / `snake-dark.svg` |
+| Contribution grid (Platane) | **GitHub Actions** — [Platane/snk](https://github.com/Platane/snk); workflow uploads `github-contribution-grid-snake*.svg` to the **`readme-assets`** release and keeps **`output`** as a mirror. Workflow: `.github/workflows/generate-snake.yml` |
 
 ---
 
