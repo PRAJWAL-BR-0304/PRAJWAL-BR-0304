@@ -127,7 +127,6 @@ flowchart LR
     <img alt="Platane contribution-grid snake (after Actions run)" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" width="100%"/>
   </picture>
 </p>
----
 
 
 ## `▸` Connect
