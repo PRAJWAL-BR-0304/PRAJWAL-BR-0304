@@ -9,7 +9,11 @@
 
 <p align="center">
   <a href="https://prajwalbr.netlify.app">
-    <img src="assets/portfolio-btn.svg" alt="Portfolio" width="360"/>
+    <img src="assets/portfolio-btn.svg" alt="Portfolio" width="350"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://prajwalbreducation.netlify.app">
+    <img src="assets/education-btn.svg" alt="Education" width="350"/>
   </a>
 </p>
 
