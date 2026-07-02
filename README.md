@@ -8,6 +8,12 @@
 </p>
 
 <p align="center">
+  <a href="https://prajwalbr.netlify.app">
+    <img src="assets/portfolio-btn.svg" alt="Portfolio" width="360"/>
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/PRAJWAL-BR-0304?tab=followers">
     <img src="https://img.shields.io/github/followers/PRAJWAL-BR-0304?label=Followers&logo=github&style=flat-square&color=7ee787&labelColor=0d1117" alt="GitHub followers"/>
   </a>
