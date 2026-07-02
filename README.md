@@ -127,9 +127,6 @@ flowchart LR
     <img alt="Platane contribution-grid snake (after Actions run)" src="https://raw.githubusercontent.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/output/github-contribution-grid-snake.svg" width="100%"/>
   </picture>
 </p>
-
-> **Platane grid snake:** After **Generate Snake** runs, these two files are uploaded to the **`readme-assets`** release (same Camo-friendly URL pattern). Until the first successful run, this block may be empty — use the SMIL snake below meanwhile.
-
 ---
 
 ## `▸` Contribution snake (SMIL)
@@ -141,9 +138,6 @@ flowchart LR
     <img alt="Contribution snake (SMIL)" src="assets/snake-light.svg" width="100%"/>
   </picture>
 </p>
-
-> **Snake setup:** In **Settings → Actions → General → Workflow permissions**, set **Read and write permissions** (needed for the `output` branch and for uploading Platane SVGs to the **readme-assets** release). Open **Actions**, run **Generate Snake** once. It runs on a schedule and on pushes to `main`.
-
 ---
 
 ## `▸` Connect
