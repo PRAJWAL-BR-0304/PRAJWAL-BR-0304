@@ -129,16 +129,6 @@ flowchart LR
 </p>
 ---
 
-## `▸` Contribution snake (SMIL)
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="assets/snake-light.svg"/>
-    <img alt="Contribution snake (SMIL)" src="assets/snake-light.svg" width="100%"/>
-  </picture>
-</p>
----
 
 ## `▸` Connect
 
@@ -163,20 +153,5 @@ flowchart LR
   </a>
 </p>
 
----
-
-## `▸` Colophon
-
-| Piece | Source |
-|:------|:-------|
-| Banner, orbit, skill bars, echo chase | **GitHub Release** [`readme-assets`](https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/tag/readme-assets) — `releases/download/readme-assets/*.svg` (same pattern as KNOWLEDGE-BASE / MediTrustChain; avoids `raw.githubusercontent.com` **404 via Camo**) |
-| Typing line | [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) (demolab) |
-| Stats & languages | [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) |
-| Streak | [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) — **demolab** mirror (Heroku mirror is often unavailable) |
-| Activity graph | [github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) |
-| SMIL snake | **Release** [`readme-assets`](https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/tag/readme-assets) — `snake-light.svg` / `snake-dark.svg` |
-| Contribution grid (Platane) | **GitHub Actions** — [Platane/snk](https://github.com/Platane/snk); workflow uploads `github-contribution-grid-snake*.svg` to the **`readme-assets`** release and keeps **`output`** as a mirror. Workflow: `.github/workflows/generate-snake.yml` |
-
----
 
 <p align="center"><sub><i>Build something kind today.</i></sub></p>
