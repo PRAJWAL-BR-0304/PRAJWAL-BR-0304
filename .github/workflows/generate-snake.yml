@@ -26,8 +26,16 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Upload snake SVGs to readme-assets release (Camo-friendly README URLs)
+      - name: Create release if missing and upload assets
         run: |
+          # Ensure the readme-assets release exists
+          gh release view readme-assets --repo "${{ github.repository }}" || \
+          gh release create readme-assets --title "README Assets" --notes "Assets for the profile README" --repo "${{ github.repository }}"
+          
+          # Upload static assets
+          gh release upload readme-assets assets/* --clobber --repo "${{ github.repository }}"
+          
+          # Upload generated snake SVGs
           gh release upload readme-assets \
             dist/github-contribution-grid-snake.svg \
             dist/github-contribution-grid-snake-dark.svg \

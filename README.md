@@ -1,6 +1,6 @@
 <!-- Profile README: use GitHub Release asset URLs (releases/download/...) — raw.githubusercontent.com often 404s through Camo on profile READMEs. Tag: readme-assets -->
 <p align="center">
-  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/orbit-banner.svg" width="100%" alt="Prajwal B R — animated orbit banner"/>
+  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/orbit-banner.svg?v=1" width="100%" alt="Prajwal B R — animated orbit banner"/>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ flowchart LR
 ## `▸` Stack — spinning in orbit
 
 <p align="center">
-  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/tech-orbit.svg" width="100%" alt="Tech orbit — stack visualization"/>
+  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/tech-orbit.svg?v=1" width="100%" alt="Tech orbit — stack visualization"/>
 </p>
 
 ---
@@ -57,7 +57,7 @@ flowchart LR
 ## `▸` Signal strength
 
 <p align="center">
-  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/skill-bars.svg" width="100%" alt="Skill proficiency bars"/>
+  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/skill-bars.svg?v=1" width="100%" alt="Skill proficiency bars"/>
 </p>
 
 ---
@@ -65,7 +65,7 @@ flowchart LR
 ## `▸` Echo chase
 
 <p align="center">
-  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/echo-chase.svg" width="100%" alt="Echo chase — SMIL motion"/>
+  <img src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/echo-chase.svg?v=1" width="100%" alt="Echo chase — SMIL motion"/>
 </p>
 
 ---
@@ -122,9 +122,9 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake.svg"/>
-    <img alt="Platane contribution-grid snake (after Actions run)" src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake-dark.svg?v=1"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake.svg?v=1"/>
+    <img alt="Platane contribution-grid snake (after Actions run)" src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/github-contribution-grid-snake.svg?v=1" width="100%"/>
   </picture>
 </p>
 
@@ -136,9 +136,9 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-light.svg"/>
-    <img alt="Contribution snake (SMIL)" src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-light.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-dark.svg?v=1"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-light.svg?v=1"/>
+    <img alt="Contribution snake (SMIL)" src="https://github.com/PRAJWAL-BR-0304/PRAJWAL-BR-0304/releases/download/readme-assets/snake-light.svg?v=1" width="100%"/>
   </picture>
 </p>
 
