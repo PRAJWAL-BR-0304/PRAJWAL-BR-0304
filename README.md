@@ -94,13 +94,13 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&icon_color=7ee787&text_color=8da3b8&rank_icon=github"/>
-    <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&icon_color=7ee787&text_color=8da3b8&rank_icon=github" height="165" alt="GitHub stats"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&icon_color=7ee787&text_color=8da3b8&rank_icon=github"/>
+    <img src="https://github-stats-extended.vercel.app/api?username=PRAJWAL-BR-0304&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&icon_color=7ee787&text_color=8da3b8&rank_icon=github" height="165" alt="GitHub stats"/>
   </picture>
   &nbsp;
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&text_color=8da3b8&langs_count=8"/>
-    <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&text_color=8da3b8&langs_count=8" height="165" alt="Top languages"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&text_color=8da3b8&langs_count=8"/>
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=PRAJWAL-BR-0304&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a6ff&text_color=8da3b8&langs_count=8" height="165" alt="Top languages"/>
   </picture>
 </p>
 
